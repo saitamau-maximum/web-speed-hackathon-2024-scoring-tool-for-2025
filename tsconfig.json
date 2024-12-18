@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "lib": ["ESNext", "DOM"],
+    "moduleResolution": "NodeNext",
+    "noEmit": true
+  },
+  "extends": "@tsconfig/node-lts-strictest-esm/tsconfig.json",
+  "include": ["src/**/*"]
+}

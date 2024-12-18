@@ -1,0 +1,34 @@
+{
+  "private": true,
+  "license": "MPL-2.0",
+  "type": "module",
+  "scripts": {
+    "debug": "tsx ./src/debug.mts",
+    "format": "pnpm run format:eslint && pnpm run format:prettier",
+    "format:eslint": "eslint --fix --ext mts,cts,ts,tsx,mjs,cjs,js,jsx . || exit 0",
+    "format:prettier": "prettier --ignore-path .prettierignore  --write '**/*.{mts,cts,ts,tsx,mjs,cjs,js,jsx,json}'",
+    "start": "NODE_OPTIONS=\"--unhandled-rejections=warn\" tsx ./src/index.mts"
+  },
+  "dependencies": {
+    "@actions/artifact": "2.1.4",
+    "@actions/github": "6.0.0",
+    "@playwright/test": "1.42.1",
+    "common-tags": "1.8.2",
+    "lighthouse": "11.7.0",
+    "lodash": "4.17.21",
+    "merge-error-cause": "5.0.0",
+    "playwright": "1.42.1",
+    "puppeteer": "npm:puppeteer-core@22.6.0",
+    "regexparam": "3.0.0",
+    "storycrawler": "4.3.0",
+    "tsx": "4.7.1",
+    "typescript": "5.4.3"
+  },
+  "devDependencies": {
+    "@3846masa/configs": "github:3846masa/configs#0e9352c7ad57e51187647f2c4aa27baea842d149",
+    "@tsconfig/node-lts-strictest-esm": "18.12.1",
+    "@types/common-tags": "1.8.4",
+    "@types/lodash": "4.17.0"
+  },
+  "packageManager": "pnpm@8.15.5+sha256.4b4efa12490e5055d59b9b9fc9438b7d581a6b7af3b5675eb5c5f447cee1a589"
+}
