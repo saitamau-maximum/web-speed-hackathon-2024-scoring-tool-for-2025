@@ -12,13 +12,11 @@ jobs:
   register:
     runs-on: ubuntu-22.04
     if: |
-      contains(github.event.issue.labels.*.name, 'registration') && (
-        (github.event_name == 'issues') || (
-          github.event_name == 'issue_comment' &&
-          !github.event.issue.pull_request &&
-          startsWith(github.event.comment.body, '/retry') &&
-          (github.actor == github.event.issue.user.login)
-        )
+      (github.event_name == 'issues') || (
+        github.event_name == 'issue_comment' &&
+        !github.event.issue.pull_request &&
+        startsWith(github.event.comment.body, '/retry') &&
+        (github.actor == github.event.issue.user.login)
       )
     steps:
       - if: github.event_name == 'issues'
@@ -33,14 +31,14 @@ jobs:
             -f content=+1
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - uses: actions/checkout@9bb56186c3b09b4f86b1c65136769dd318469633 # renovate: tag=v4.1.2
-      - uses: pnpm/action-setup@a3252b78c470c02df07e9d59298aecedc3ccdd6d # renovate: tag=v3.0.0
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
         with:
           package_json_file: 'package.json'
-      - uses: actions/setup-node@60edb5dd545a775178f52524783378180af0d1f8 # renovate: tag=v4.0.2
+      - uses: actions/setup-node@v4
         with:
           node-version-file: '.node-version'
-          cache: "pnpm"
+          cache: 'pnpm'
       - run: pnpm install --frozen-lockfile
       - run: pnpm playwright install chromium --with-deps
       - run: pnpm start

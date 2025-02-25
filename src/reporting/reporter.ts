@@ -43,8 +43,6 @@ export class Reporter {
   private get _body(): string {
     if (this._state.has('fatalError')) {
       return stripIndents`
-        # 🚀 **Web Speed Hackathon 2024 過去問へようこそ！**
-
         ${this._state.get('fatalError')?.join('\n') ?? ''}
 
         ---
@@ -55,8 +53,6 @@ export class Reporter {
 
     if (this._state.has('result')) {
       return stripIndents`
-        # 🚀 **Web Speed Hackathon 2024 過去問へようこそ！**
-
         ### スコア
 
         ${this._state.get('scoreTable')?.join('\n') ?? ''}
@@ -74,8 +70,6 @@ export class Reporter {
     }
 
     return stripIndents`
-      # 🚀 **Web Speed Hackathon 2024 過去問へようこそ！**
-
       ### スコア
 
       ${this._state.get('scoreTable')?.join('\n') ?? '⏳ 計測しています...'}
