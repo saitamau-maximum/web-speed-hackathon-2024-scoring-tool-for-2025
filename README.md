@@ -88,6 +88,11 @@ Free に収めたい場合は、 Koyeb 上で wsh2023 のインスタンスを�
 
 <https://github.com/saitamau-maximum/web-speed-hackathon-2024-scoring-tool-for-2025/issues/new/choose>
 
+> [!IMPORTANT]
+> E2E テスト・ VRT はありません。
+> 各自提供されているツールを用いてテストを実行していることを期待します。
+> 本リポジトリで初回の計測をする前に `docs/development.md` に記載されている通りにスクリーンショットを撮り直すことをお勧めします。
+
 ## リーダーボード
 
 <!-- leaderboard:start -->
