@@ -36,7 +36,7 @@ jobs:
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
         with:
-          package_json_file: 'package.json'
+          version: 10.4.1
       - name: Setup Nodejs
         uses: actions/setup-node@v4
         with:
@@ -50,3 +50,9 @@ jobs:
         run: pnpm start
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit Leaderboard
+        uses: stefanzweifel/git-auto-commit-action@v5.1.0
+        with:
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
+          commit_author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"

@@ -4,10 +4,11 @@ import _ from 'lodash';
 
 import { calculate } from './calculate.mjs';
 import { Reporter } from './reporting/reporter.js';
+import { updateLeaderboard } from './update-leaderboard.mjs';
 
 const reporter = new Reporter({
   github,
-  octokit: github.getOctokit(process.env['GITHUB_TOKEN']!),
+  octokit: github.getOctokit(process.env.GITHUB_TOKEN!),
 });
 
 main().catch(async (err) => {
@@ -69,28 +70,17 @@ async function main() {
     await reporter.setArea('scoreTable', scoreTable);
   }
 
-  {
-    const totalScore = _.round(_.sum(_.map(results, ({ scoreX100 }) => scoreX100 || 0)) / 100, 2);
-    const totalMaxScore = _.sum(_.map(results, ({ target }) => target.maxScore));
+  const totalScore = _.round(_.sum(_.map(results, ({ scoreX100 }) => scoreX100 || 0)) / 100, 2);
+  const totalMaxScore = _.sum(_.map(results, ({ target }) => target.maxScore));
 
-    const shareUrl = new URL('https://twitter.com/intent/tweet');
-    shareUrl.searchParams.set(
-      'text',
-      stripIndents`
-        "Web Speed Hackathon 2024" 過去問に挑戦中です！
-        スコア ${totalScore.toFixed(2)} / ${totalMaxScore.toFixed(2)} です
-      `,
-    );
-    shareUrl.searchParams.set('url', 'https://github.com/CyberAgentHack/web-speed-hackathon-2024');
-    shareUrl.searchParams.set('hashtags', 'WebSpeedHackathon');
+  const res = await updateLeaderboard(github.context.payload.issue!['user'].login, totalScore, BASE_URL);
 
-    await reporter.setArea(
-      'result',
-      stripIndents`
-        **合計 ${totalScore.toFixed(2)} / ${totalMaxScore.toFixed(2)}**
+  await reporter.setArea(
+    'result',
+    stripIndents`
+          **合計 ${totalScore.toFixed(2)} / ${totalMaxScore.toFixed(2)}**
 
-        - [**🐦 X（旧 Twitter）で結果を投稿しよう！**](${shareUrl.href})
-      `,
-    );
-  }
+          現在、**${res.rank} 位**です
+        `,
+  );
 }

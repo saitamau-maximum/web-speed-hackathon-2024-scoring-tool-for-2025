@@ -14,6 +14,8 @@
     "@actions/github": "6.0.0",
     "@playwright/test": "1.42.1",
     "common-tags": "1.8.2",
+    "csv-parse": "5.6.0",
+    "csv-stringify": "6.5.2",
     "lighthouse": "11.7.0",
     "lodash": "4.17.21",
     "merge-error-cause": "5.0.0",
@@ -29,6 +31,5 @@
     "@tsconfig/node-lts-strictest-esm": "18.12.1",
     "@types/common-tags": "1.8.4",
     "@types/lodash": "4.17.0"
-  },
-  "packageManager": "pnpm@8.15.5+sha256.4b4efa12490e5055d59b9b9fc9438b7d581a6b7af3b5675eb5c5f447cee1a589"
+  }
 }
