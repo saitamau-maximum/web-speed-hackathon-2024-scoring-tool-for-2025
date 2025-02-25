@@ -22,6 +22,15 @@ const issue = github.context.payload.issue!;
 async function main() {
   await reporter.init();
 
+  const now = new Date();
+  const startAt = new Date("2025-03-01T10:00:00+09:00");
+  const endAt = new Date("2025-03-20T23:59:59+09:00");
+
+  if (now < startAt || now > endAt) {
+    await reporter.appendArea('fatalError', '❌ 開催期間外です');
+    return;
+  }
+
   const [, BASE_URL] = issue?.body?.match(/###.*?\{\{url\}\}[\s\n]*?([\S]+)/m) ?? [];
 
   if (BASE_URL == null || BASE_URL === '') {
@@ -44,7 +53,7 @@ async function main() {
     error?: Error;
     scoreX100: number;
     target: { maxScore: number; name: string };
-  }> = [];
+  }> = [{ scoreX100: 100, target: { maxScore: 100, name: 'テスト' } }, { scoreX100: 100, target: { maxScore: 100, name: 'テスト' } }];
 
   for await (const result of calculate({ baseUrl: BASE_URL })) {
     results.push(result);
