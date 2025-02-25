@@ -19,28 +19,34 @@ jobs:
         (github.actor == github.event.issue.user.login)
       )
     steps:
-      - if: github.event_name == 'issues'
+      - name: Add Reaction (for registration)
+        if: github.event_name == 'issues'
         run: |
-          gh api -X POST repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/reactions \
-            -f content=+1
+          gh api -X POST repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/reactions -f content=+1
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - if: github.event_name == 'issue_comment'
+      - name: Add Reaction (for retry request)
+        if: github.event_name == 'issue_comment'
         run: |
-          gh api -X POST repos/${{ github.repository }}/issues/comments/${{ github.event.comment.id }}/reactions \
-            -f content=+1
+          gh api -X POST repos/${{ github.repository }}/issues/comments/${{ github.event.comment.id }}/reactions -f content=+1
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
         with:
           package_json_file: 'package.json'
-      - uses: actions/setup-node@v4
+      - name: Setup Nodejs
+        uses: actions/setup-node@v4
         with:
           node-version-file: '.node-version'
           cache: 'pnpm'
-      - run: pnpm install --frozen-lockfile
-      - run: pnpm playwright install chromium --with-deps
-      - run: pnpm start
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Install Chromium
+        run: pnpm playwright install chromium --with-deps
+      - name: Run
+        run: pnpm start
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
