@@ -50,6 +50,7 @@ jobs:
         run: pnpm start
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
       - name: Commit Leaderboard
         uses: stefanzweifel/git-auto-commit-action@v5.1.0
         with:
