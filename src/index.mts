@@ -53,7 +53,7 @@ async function main() {
     error?: Error;
     scoreX100: number;
     target: { maxScore: number; name: string };
-  }> = [{ scoreX100: 100, target: { maxScore: 100, name: 'テスト' } }, { scoreX100: 100, target: { maxScore: 100, name: 'テスト' } }];
+  }> = [];
 
   for await (const result of calculate({ baseUrl: BASE_URL })) {
     results.push(result);
