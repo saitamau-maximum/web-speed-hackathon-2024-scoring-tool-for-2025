@@ -96,6 +96,11 @@ Free に収めたい場合は、 Koyeb 上で wsh2023 のインスタンスを�
 ## リーダーボード
 
 <!-- leaderboard:start -->
+
+|Rank|Score||CompetitorId|URL|
+|:--:|:--:|:--:|:--|:--:|
+|1|**31.75**|<img alt="" width="50" height="50" src="https://github.com/nakamuraitsuki.png?size=100"/>|[@nakamuraitsuki](https://github.com/nakamuraitsuki)|[:link:](https://prepared-ginelle-nakamuraitsuki-11ad5b95.koyeb.app/)|
+
 <!-- leaderboard:end -->
 
 ---
