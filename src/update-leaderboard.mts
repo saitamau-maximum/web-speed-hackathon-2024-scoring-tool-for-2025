@@ -2,6 +2,7 @@ import { appendFile, readFile, writeFile } from "node:fs/promises"
 import { resolve } from "node:path"
 import { parse as parseCSV } from "csv-parse/sync";
 import { stringify as stringifyCSV } from "csv-stringify/sync";
+import { execSync } from "node:child_process";
 
 type CSVRow = {
   rank: number;
@@ -14,6 +15,8 @@ export async function updateLeaderboard(id: string, score: number, url: string) 
   const LOG_CSV_PATH = resolve(import.meta.filename, "..", "..", "log.csv")
   const SCORE_CSV_PATH = resolve(import.meta.filename, "..", "..", "score.csv")
   const README_PATH = resolve(import.meta.filename, "..", "..", "README.md")
+
+  execSync("git pull origin main");
 
   await appendFile(
     LOG_CSV_PATH,
