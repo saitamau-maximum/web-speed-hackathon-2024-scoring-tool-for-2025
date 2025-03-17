@@ -101,8 +101,9 @@ Free に収めたい場合は、 Koyeb 上で wsh2023 のインスタンスを�
 |:--:|:--:|:--:|:--|:--:|
 |1|**492.25**|<img alt="" width="50" height="50" src="https://github.com/a01sa01to.png?size=100"/>|[@a01sa01to](https://github.com/a01sa01to)|[:link:](https://retail-alex-a01sa01to-ace06c6c.koyeb.app/)|
 |2|**130.70**|<img alt="" width="50" height="50" src="https://github.com/nakamuraitsuki.png?size=100"/>|[@nakamuraitsuki](https://github.com/nakamuraitsuki)|[:link:](https://prepared-ginelle-nakamuraitsuki-11ad5b95.koyeb.app/)|
-|3|**18.30**|<img alt="" width="50" height="50" src="https://github.com/sor4chi.png?size=100"/>|[@sor4chi](https://github.com/sor4chi)|[:link:](https://wsh-2024-for-2025.sor4chi.com/)|
-|4|**0.00**|<img alt="" width="50" height="50" src="https://github.com/shigekk.png?size=100"/>|[@shigekk](https://github.com/shigekk)|[:link:](https://boiling-myrle-shigekk-417acd4d.koyeb.app/)|
+|3|**24.35**|<img alt="" width="50" height="50" src="https://github.com/nomanoma121.png?size=100"/>|[@nomanoma121](https://github.com/nomanoma121)|[:link:](https://dominant-corie-kouta0121-9fc8b7b7.koyeb.app/)|
+|4|**18.30**|<img alt="" width="50" height="50" src="https://github.com/sor4chi.png?size=100"/>|[@sor4chi](https://github.com/sor4chi)|[:link:](https://wsh-2024-for-2025.sor4chi.com/)|
+|5|**0.00**|<img alt="" width="50" height="50" src="https://github.com/shigekk.png?size=100"/>|[@shigekk](https://github.com/shigekk)|[:link:](https://boiling-myrle-shigekk-417acd4d.koyeb.app/)|
 
 <!-- leaderboard:end -->
 
