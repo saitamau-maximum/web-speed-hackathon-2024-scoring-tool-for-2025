@@ -100,7 +100,7 @@ Free に収めたい場合は、 Koyeb 上で wsh2023 のインスタンスを�
 |Rank|Score||CompetitorId|URL|
 |:--:|:--:|:--:|:--|:--:|
 |1|**492.25**|<img alt="" width="50" height="50" src="https://github.com/a01sa01to.png?size=100"/>|[@a01sa01to](https://github.com/a01sa01to)|[:link:](https://retail-alex-a01sa01to-ace06c6c.koyeb.app/)|
-|2|**83.15**|<img alt="" width="50" height="50" src="https://github.com/nakamuraitsuki.png?size=100"/>|[@nakamuraitsuki](https://github.com/nakamuraitsuki)|[:link:](https://prepared-ginelle-nakamuraitsuki-11ad5b95.koyeb.app/)|
+|2|**130.00**|<img alt="" width="50" height="50" src="https://github.com/nakamuraitsuki.png?size=100"/>|[@nakamuraitsuki](https://github.com/nakamuraitsuki)|[:link:](https://prepared-ginelle-nakamuraitsuki-11ad5b95.koyeb.app/)|
 |3|**65.50**|<img alt="" width="50" height="50" src="https://github.com/shigekk.png?size=100"/>|[@shigekk](https://github.com/shigekk)|[:link:](https://boiling-myrle-shigekk-417acd4d.koyeb.app/)|
 |4|**58.25**|<img alt="" width="50" height="50" src="https://github.com/seiei-n.png?size=100"/>|[@seiei-n](https://github.com/seiei-n)|[:link:](https://wsh-seiei.2xsei.com)|
 |5|**26.75**|<img alt="" width="50" height="50" src="https://github.com/hana-rs.png?size=100"/>|[@hana-rs](https://github.com/hana-rs)|[:link:](https://fun-latia-rsmaximum-3870df6a.koyeb.app/)|
