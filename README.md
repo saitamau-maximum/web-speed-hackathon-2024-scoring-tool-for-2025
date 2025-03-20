@@ -102,7 +102,7 @@ Free に収めたい場合は、 Koyeb 上で wsh2023 のインスタンスを�
 |1|**492.25**|<img alt="" width="50" height="50" src="https://github.com/a01sa01to.png?size=100"/>|[@a01sa01to](https://github.com/a01sa01to)|[:link:](https://retail-alex-a01sa01to-ace06c6c.koyeb.app/)|
 |2|**385.95**|<img alt="" width="50" height="50" src="https://github.com/seiei-n.png?size=100"/>|[@seiei-n](https://github.com/seiei-n)|[:link:](https://wsh-seiei.2xsei.com)|
 |3|**260.25**|<img alt="" width="50" height="50" src="https://github.com/sor4chi.png?size=100"/>|[@sor4chi](https://github.com/sor4chi)|[:link:](https://wsh-2024-for-2025.sor4chi.com/)|
-|4|**192.10**|<img alt="" width="50" height="50" src="https://github.com/nakamuraitsuki.png?size=100"/>|[@nakamuraitsuki](https://github.com/nakamuraitsuki)|[:link:](https://prepared-ginelle-nakamuraitsuki-11ad5b95.koyeb.app/)|
+|4|**209.55**|<img alt="" width="50" height="50" src="https://github.com/nakamuraitsuki.png?size=100"/>|[@nakamuraitsuki](https://github.com/nakamuraitsuki)|[:link:](https://prepared-ginelle-nakamuraitsuki-11ad5b95.koyeb.app/)|
 |5|**65.50**|<img alt="" width="50" height="50" src="https://github.com/shigekk.png?size=100"/>|[@shigekk](https://github.com/shigekk)|[:link:](https://boiling-myrle-shigekk-417acd4d.koyeb.app/)|
 |6|**26.75**|<img alt="" width="50" height="50" src="https://github.com/hana-rs.png?size=100"/>|[@hana-rs](https://github.com/hana-rs)|[:link:](https://fun-latia-rsmaximum-3870df6a.koyeb.app/)|
 |7|**24.35**|<img alt="" width="50" height="50" src="https://github.com/nomanoma121.png?size=100"/>|[@nomanoma121](https://github.com/nomanoma121)|[:link:](https://dominant-corie-kouta0121-9fc8b7b7.koyeb.app/)|
