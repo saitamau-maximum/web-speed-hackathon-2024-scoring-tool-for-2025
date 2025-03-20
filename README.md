@@ -100,7 +100,7 @@ Free に収めたい場合は、 Koyeb 上で wsh2023 のインスタンスを�
 |Rank|Score||CompetitorId|URL|
 |:--:|:--:|:--:|:--|:--:|
 |1|**492.25**|<img alt="" width="50" height="50" src="https://github.com/a01sa01to.png?size=100"/>|[@a01sa01to](https://github.com/a01sa01to)|[:link:](https://retail-alex-a01sa01to-ace06c6c.koyeb.app/)|
-|2|**367.30**|<img alt="" width="50" height="50" src="https://github.com/seiei-n.png?size=100"/>|[@seiei-n](https://github.com/seiei-n)|[:link:](https://wsh-seiei.2xsei.com)|
+|2|**385.95**|<img alt="" width="50" height="50" src="https://github.com/seiei-n.png?size=100"/>|[@seiei-n](https://github.com/seiei-n)|[:link:](https://wsh-seiei.2xsei.com)|
 |3|**260.25**|<img alt="" width="50" height="50" src="https://github.com/sor4chi.png?size=100"/>|[@sor4chi](https://github.com/sor4chi)|[:link:](https://wsh-2024-for-2025.sor4chi.com/)|
 |4|**65.50**|<img alt="" width="50" height="50" src="https://github.com/shigekk.png?size=100"/>|[@shigekk](https://github.com/shigekk)|[:link:](https://boiling-myrle-shigekk-417acd4d.koyeb.app/)|
 |5|**58.50**|<img alt="" width="50" height="50" src="https://github.com/nakamuraitsuki.png?size=100"/>|[@nakamuraitsuki](https://github.com/nakamuraitsuki)|[:link:](https://prepared-ginelle-nakamuraitsuki-11ad5b95.koyeb.app/)|
