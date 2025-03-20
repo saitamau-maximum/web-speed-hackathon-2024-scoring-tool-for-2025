@@ -104,8 +104,9 @@ Free に収めたい場合は、 Koyeb 上で wsh2023 のインスタンスを�
 |3|**260.25**|<img alt="" width="50" height="50" src="https://github.com/sor4chi.png?size=100"/>|[@sor4chi](https://github.com/sor4chi)|[:link:](https://wsh-2024-for-2025.sor4chi.com/)|
 |4|**209.55**|<img alt="" width="50" height="50" src="https://github.com/nakamuraitsuki.png?size=100"/>|[@nakamuraitsuki](https://github.com/nakamuraitsuki)|[:link:](https://prepared-ginelle-nakamuraitsuki-11ad5b95.koyeb.app/)|
 |5|**65.50**|<img alt="" width="50" height="50" src="https://github.com/shigekk.png?size=100"/>|[@shigekk](https://github.com/shigekk)|[:link:](https://boiling-myrle-shigekk-417acd4d.koyeb.app/)|
-|6|**26.75**|<img alt="" width="50" height="50" src="https://github.com/hana-rs.png?size=100"/>|[@hana-rs](https://github.com/hana-rs)|[:link:](https://fun-latia-rsmaximum-3870df6a.koyeb.app/)|
-|7|**24.35**|<img alt="" width="50" height="50" src="https://github.com/nomanoma121.png?size=100"/>|[@nomanoma121](https://github.com/nomanoma121)|[:link:](https://dominant-corie-kouta0121-9fc8b7b7.koyeb.app/)|
+|6|**34.05**|<img alt="" width="50" height="50" src="https://github.com/batora9.png?size=100"/>|[@batora9](https://github.com/batora9)|[:link:](https://web-speed-hackathon-2024-practice.fly.dev/)|
+|7|**26.75**|<img alt="" width="50" height="50" src="https://github.com/hana-rs.png?size=100"/>|[@hana-rs](https://github.com/hana-rs)|[:link:](https://fun-latia-rsmaximum-3870df6a.koyeb.app/)|
+|8|**24.35**|<img alt="" width="50" height="50" src="https://github.com/nomanoma121.png?size=100"/>|[@nomanoma121](https://github.com/nomanoma121)|[:link:](https://dominant-corie-kouta0121-9fc8b7b7.koyeb.app/)|
 
 <!-- leaderboard:end -->
 
